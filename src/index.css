@@ -1,0 +1,69 @@
+/* ── Global Design Tokens ── */
+:root {
+  --font-sans: 'Inter', system-ui, sans-serif;
+
+  /* colors */
+  --color-bg: #080e08;
+  --color-green: #4ade80;
+  --color-green-dim: #36b866;
+  --color-white: #ffffff;
+  --color-muted: #8b949e;
+  --color-muted-light: #b0bec5;
+  --color-orange: #f5a524;
+  --color-card-bg: rgba(22, 32, 22, 0.88);
+  --color-card-border: rgba(255, 255, 255, 0.08);
+  --color-pill-bg: #1a3a22;
+  --color-input-bg: rgba(255, 255, 255, 0.07);
+  --color-input-border: rgba(255, 255, 255, 0.15);
+  --color-input-focus: rgba(74, 222, 128, 0.4);
+  --color-overlay: rgba(0, 0, 0, 0.35);
+  --color-btn-green: #22c55e;
+  --color-btn-green-hover: #16a34a;
+
+  /* spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+
+  /* radius */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+
+  /* shadow */
+  --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+/* ── Reset ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--color-bg);
+  color: var(--color-white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+input {
+  font-family: inherit;
+}
