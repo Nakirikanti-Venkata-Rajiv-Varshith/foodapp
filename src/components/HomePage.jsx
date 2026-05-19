@@ -152,7 +152,7 @@ export default function HomePage({ onSubmit }) {
                 )
               }
             >
-              No Fill Pay 1
+              Food sutra
             </button>
 
             <button
@@ -171,7 +171,7 @@ export default function HomePage({ onSubmit }) {
                 )
               }
             >
-              No Fill Pay 2
+              Canteen 3
             </button>
           </div>
         </form>
