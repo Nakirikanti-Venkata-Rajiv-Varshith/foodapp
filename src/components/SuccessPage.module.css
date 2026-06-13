@@ -391,6 +391,7 @@
   }
   .amount {
     font-size: 52px;
+    margin-top: 10px;
   }
   .amountSymbol {
     font-size: 42px;
