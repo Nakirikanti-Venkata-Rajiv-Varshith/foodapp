@@ -181,15 +181,10 @@
 
 /* Hero Section */
 .hero {
-  position: fixed;           /* ADD THIS */
-  top: 0;
-  left: 0;
-  right: 0;
-  max-width: 430px;
-  margin: 0 auto;
+  position: relative;
   z-index: 10;
   text-align: center;
-  padding: calc(env(safe-area-inset-top) + 20px) 24px 16px;
+  padding: calc(env(safe-area-inset-top) + 20px) 24px 0; 
 }
 .amount {
   font-size: 54px;
@@ -240,7 +235,6 @@
 
 /* Lower content */
 .lowerContent {
-  margin-top: 220px;
   position: relative;
   z-index: 10;
   padding: 0 20px 32px;
