@@ -184,7 +184,7 @@
   position: relative;
   z-index: 10;
   text-align: center;
-  padding: 72px 24px 0;
+  padding: 62px 24px 0;
 }
 .amount {
   margin-top: 20px;
@@ -238,7 +238,7 @@
 .lowerContent {
   position: relative;
   z-index: 10;
-  padding: 0 20px 32px;
+  padding: 0 20px 22px;
   margin-top: 32px;
   display: flex;
   flex-direction: column;
@@ -387,7 +387,7 @@
     padding: 14px 16px 0;
   }
   .hero {
-    padding: 20px 16px 0;
+    padding: 10px 16px 0;
   }
   .amount {
     font-size: 52px;
@@ -399,7 +399,7 @@
     font-size: 17px;
   }
   .lowerContent {
-    padding: 0 16px 24px;
+    padding: 0 16px 14px;
     margin-top: 24px;
     gap: 18px;
   }
