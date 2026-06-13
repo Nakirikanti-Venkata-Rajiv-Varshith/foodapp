@@ -1,0 +1,18 @@
+{
+  "name": "FamPay",
+  "short_name": "FamPay",
+  "description": "FamPay UPI Payments",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "/",
+  "scope": "/",
+  "background_color": "#080e08",
+  "theme_color": "#080e08",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
