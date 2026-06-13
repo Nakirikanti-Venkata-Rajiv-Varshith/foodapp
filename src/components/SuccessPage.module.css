@@ -184,8 +184,7 @@
   position: relative;
   z-index: 10;
   text-align: center;
-  padding: 72px 24px 0;
-  margin-top: 10px;
+  padding: max(92px, calc(env(safe-area-inset-top) + 72px)) 24px 0;
 }
 .amount {
   font-size: 54px;
