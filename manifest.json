@@ -4,13 +4,13 @@
   "description": "FamPay UPI Payments",
   "display": "standalone",
   "orientation": "portrait",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "/foodapp/",
+  "scope": "/foodapp/",
   "background_color": "#080e08",
   "theme_color": "#080e08",
   "icons": [
     {
-      "src": "/favicon.svg",
+      "src": "/foodapp/favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml"
     }
