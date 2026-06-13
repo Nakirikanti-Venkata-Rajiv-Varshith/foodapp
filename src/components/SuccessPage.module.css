@@ -184,10 +184,10 @@
   position: relative;
   z-index: 10;
   text-align: center;
-  padding: 62px 24px 0;
+  padding: 57px 24px 0;
 }
 .amount {
-  margin-top: 25px;
+  margin-top: 30px;
   font-size: 54px;
   font-weight: 800;
   color: var(--color-green);
