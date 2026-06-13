@@ -184,9 +184,10 @@
   position: relative;
   z-index: 10;
   text-align: center;
-  padding: calc(env(safe-area-inset-top) + 20px) 24px 0; 
+  padding: 72px 24px 0;
 }
 .amount {
+  margin-top: 20px;
   font-size: 54px;
   font-weight: 800;
   color: var(--color-green);
