@@ -26,11 +26,24 @@ export default function HomePage({ onSubmit }) {
   function handleSubmit(e) {
     e.preventDefault();
     if (!isValid) return;
+
     playSound();
+
     onSubmit({
       amount: amount.trim(),
       name: name.trim().toUpperCase(),
       upiId: upiId.trim(),
+    });
+  }
+
+  // Quick Pay Buttons
+  function quickPay(amountValue, nameValue, upiValue) {
+    playSound();
+
+    onSubmit({
+      amount: amountValue,
+      name: nameValue.toUpperCase(),
+      upiId: upiValue,
     });
   }
 
@@ -114,6 +127,53 @@ export default function HomePage({ onSubmit }) {
             </svg>
             Send ₹{amount || "0"}
           </button>
+
+          {/* Quick Pay Buttons */}
+          <div
+            style={{
+              display: "flex",
+              gap: "10px",
+              marginTop: "14px",
+            }}
+          >
+            <button
+              type="button"
+              className={styles.payBtn}
+              style={{
+                background: "transparent",
+                border: "1px solid #999",
+                color: "#fff",
+              }}
+              onClick={() =>
+                quickPay(
+                  "45",
+                  "FOODSUTRA ART OF SPI",
+                  "q860738916@ybl"
+                )
+              }
+            >
+              Food sutra
+            </button>
+
+            <button
+              type="button"
+              className={styles.payBtn}
+              style={{
+                background: "transparent",
+                border: "1px solid #999",
+                color: "#fff",
+              }}
+              onClick={() =>
+                quickPay(
+                  "45",
+                  "IITH CANTEEN 3",
+                  "Q860738916@ybl"
+                )
+              }
+            >
+              Canteen 3
+            </button>
+          </div>
         </form>
 
         <p className={styles.secureNote}>
